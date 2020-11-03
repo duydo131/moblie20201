@@ -52,7 +52,7 @@ public class GmailAdapter extends BaseAdapter {
         TextView favorite = convertView.findViewById(R.id.favorite);
 
         GmailModel item = (GmailModel) getItem(position);
-        SimpleDateFormat f = new SimpleDateFormat("hh : mm ");
+        SimpleDateFormat f = new SimpleDateFormat("MM/dd/yyyy");
 
         avatar.setText(item.getUsername().charAt(0) + "");
         textUsername.setText(item.getUsername());
