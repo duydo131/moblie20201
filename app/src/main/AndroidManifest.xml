@@ -13,6 +13,9 @@
 
         </activity>
         <activity android:name=".Currency">
+
+        </activity>
+        <activity android:name=".GmailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
